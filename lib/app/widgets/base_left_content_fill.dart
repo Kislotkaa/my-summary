@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:keyfood_admin/app/widgets/base_text.dart';
 
 import '../modules/home/controllers/home_controller.dart';
 import '../resources/app_colors.dart';
@@ -115,7 +116,7 @@ class BaseLeftContentFill extends StatelessWidget {
         const BaseItemLeftContent(
           title: 'Русский (родной)',
         ),
-        const SizedBox(height: 100),
+        const SizedBox(height: 12),
       ],
     );
   }

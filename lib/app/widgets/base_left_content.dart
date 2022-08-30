@@ -14,12 +14,15 @@ class BaseLeftContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width,
+      height: Get.height,
       color: Theme.of(context).primaryColor,
       child: Padding(
         padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: children,
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: children,
+          ),
         ),
       ),
     );

@@ -9,7 +9,7 @@ class BaseImageAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(100),
+        borderRadius: BorderRadius.circular(200),
         child: Image.asset(
           'assets/images/myPhoto.jpg',
           height: 180,

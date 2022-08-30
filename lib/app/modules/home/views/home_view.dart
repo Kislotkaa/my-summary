@@ -14,7 +14,7 @@ class HomeView extends GetView<HomeController> {
       builder: (BuildContext context, Widget? child) {
         return Scaffold(
           key: controller.key,
-          drawer: const BaseDrawerContent(),
+          drawer: BaseDrawerContent(controller: controller),
           body: BaseAdaptiveHomeContent(controller: controller),
         );
       },

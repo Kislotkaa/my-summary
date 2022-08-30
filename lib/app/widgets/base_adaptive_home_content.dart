@@ -19,10 +19,9 @@ class BaseAdaptiveHomeContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Center(
+    return ListView(children: [
+      Center(
         child: Container(
-          width: 1080,
           color: Colors.white,
           child: () {
             if (Get.width <= 768) {
@@ -33,7 +32,7 @@ class BaseAdaptiveHomeContent extends StatelessWidget {
           }(),
         ),
       ),
-    );
+    ]);
   }
 }
 
@@ -68,13 +67,13 @@ class SmallHomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        BaseButtonDrawer(
-          keyGlobal: controller.key,
-        ),
         BaseRightContentFill(
           controller: controller,
           isSmallScreen: true,
-        )
+        ),
+        BaseButtonDrawer(
+          keyGlobal: controller.key,
+        ),
       ],
     );
   }

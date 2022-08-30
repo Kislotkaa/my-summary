@@ -113,6 +113,7 @@ class BaseRightContentFill extends StatelessWidget {
           hideUrl: 'Go to GitHub',
           url: 'https://github.com/Kislotkaa',
         ),
+        const SizedBox(height: 12),
       ],
     );
   }

@@ -1,0 +1,101 @@
+name: keyfood_admin
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+16
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  platform: ^3.1.0
+  flutter_web_plugins:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+
+  #core
+  get: ^4.6.5
+  intl: ^0.17.0
+  dio: ^4.0.6
+  get_storage: ^2.0.3
+  flutter_secure_storage: ^5.0.2
+  graphql_flutter: ^5.0.0
+  artemis: ^7.1.1-beta.1
+  equatable: ^2.0.3
+  json_annotation: ^4.0.1
+  json_serializable: ^4.1.4
+  flutter_dotenv: ^5.0.2
+  jwt_decoder: ^2.0.1
+  web_socket_channel: ^2.2.0
+  http: ^0.13.4
+  uuid: ^3.0.4
+  
+  #firebase
+  firebase_core: ^1.17.0
+
+  #code gen
+  get_cli: ^1.7.1
+
+  #helpers
+  dartx: ^1.1.0
+  gql_dio_link: ^0.1.0
+  pretty_dio_logger: ^1.1.1
+  mask_text_input_formatter: ^2.3.0
+  dart_date: ^1.1.1
+  flutter_svg: ^1.0.3
+  cached_network_image: ^3.1.0
+  flutter_screenutil: ^5.5.3+2
+
+  #style
+  animate_on_start: ^0.0.1
+  cupertino_icons: ^1.0.2
+
+dependency_overrides:
+  gql: 0.13.0
+
+dev_dependencies:
+  build_runner: ^2.1.1
+  dart_code_metrics: ^4.1.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/map_styles/
+
+
+  fonts:
+    - family: Robot
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+analyzer:
+  plugins:
+    - dart_code_metrics
+
+
+dart_code_metrics:
+  anti-patterns:
+    - long-method
+    - long-parameter-list
+  metrics:
+    cyclomatic-complexity: 20
+    maximum-nesting-level: 5
+    number-of-parameters: 4
+    source-lines-of-code: 50
+  metrics-exclude:
+    - test/**
+  rules:
+    - newline-before-return
+    - no-boolean-literal-compare
+    - no-empty-block
+    - prefer-trailing-comma
+    - prefer-conditional-expressions
+    - no-equal-then-else

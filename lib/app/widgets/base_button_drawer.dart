@@ -12,14 +12,17 @@ class BaseButtonDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(
-      icon: const Icon(
-        Icons.menu,
-        color: AppColors.primaryColor,
+    return Align(
+      alignment: Alignment.topRight,
+      child: IconButton(
+        icon: const Icon(
+          Icons.menu,
+          color: AppColors.primaryColor,
+        ),
+        onPressed: () {
+          keyGlobal.currentState!.openDrawer();
+        },
       ),
-      onPressed: () {
-        keyGlobal.currentState!.openDrawer();
-      },
     );
   }
 }

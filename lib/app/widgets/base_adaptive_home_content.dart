@@ -5,6 +5,7 @@ import '../modules/home/controllers/home_controller.dart';
 import 'base_button_drawer.dart';
 import 'base_left_content_fill.dart';
 import 'base_right_content.dart';
+import 'base_right_content_fill.dart';
 import 'base_text.dart';
 import 'base_title.dart';
 
@@ -26,8 +27,9 @@ class BaseAdaptiveHomeContent extends StatelessWidget {
           child: () {
             if (Get.width <= 768) {
               return SmallHomeScreen(controller: controller);
-            } else
+            } else {
               return BigHomeScreen(controller: controller);
+            }
           }(),
         ),
       ),
@@ -48,27 +50,7 @@ class BigHomeScreen extends StatelessWidget {
     return Stack(
       children: [
         BaseLeftContentFill(controller: controller),
-        BaseRightContent(
-          controller: controller,
-          children: [
-            BaseTitle(
-              'Титульный основной текст',
-              high: true,
-              fontSize: 26,
-              fontWeight: FontWeight.bold,
-            ),
-            BaseTitle(
-              'Титульный большой текст',
-              high: true,
-            ),
-            BaseTitle(
-              'Титульный текст',
-            ),
-            BaseText(
-              'Основной текст',
-            ),
-          ],
-        ),
+        BaseRightContentFill(controller: controller),
       ],
     );
   }
@@ -89,28 +71,10 @@ class SmallHomeScreen extends StatelessWidget {
         BaseButtonDrawer(
           keyGlobal: controller.key,
         ),
-        BaseRightContent(
-          isSmallScreen: true,
+        BaseRightContentFill(
           controller: controller,
-          children: [
-            BaseTitle(
-              'Титульный основной текст',
-              high: true,
-              fontSize: 26,
-              fontWeight: FontWeight.bold,
-            ),
-            BaseTitle(
-              'Титульный большой текст',
-              high: true,
-            ),
-            BaseTitle(
-              'Титульный текст',
-            ),
-            BaseText(
-              'Основной текст',
-            ),
-          ],
-        ),
+          isSmallScreen: true,
+        )
       ],
     );
   }

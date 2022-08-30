@@ -2,19 +2,14 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   // Константы
-  static const Color highlightConst = Color(0xff687CAE);
-  static const Color errorConst = Color(0xffF38181);
-  static const Color greyConst = Color(0xffA3A3A3);
-  static const Color primaryActiveConst = Color(0xffD78E22);
-  static const Color primaryConst = Color(0xffF2A633);
-  static const Color whiteConst = Color(0xffFFFFFF);
-  static const Color greenConst = Color.fromARGB(255, 66, 199, 84);
-
-  // Цвета Light
-  static const Color textColorLight = Color(0xff181A1F);
-  static const Color backGroundColorLight = Color(0xffF8F8F8);
-  static const Color dividerColorLight = Color(0xffE8E8E8);
-  static const Color secondaryColorLight = Color(0xff8C8C8C);
-  static const Color cardColorLight = Color(0xffFFFFFF);
-  static const Color scaffoldColorLight = Color(0xffFFFFFF);
+  static const Color primaryColor = Color(0xff444A53);
+  static const Color whiteColor = Color(0xffF5F5F5);
+  static const Color backgroundColor = Color(0xffF5F5F5);
+  static const Color cardColor = Color(0xffDEDEDE);
+  static const Color titleColor = Color(0xff444A53);
+  static const Color textColor = Color(0xff404040);
+  static const Color titleReverseColor = Color(0xffF5F5F5);
+  static const Color textReverseColor = Color(0xffE3E3E3);
+  static const Color inactiveColor = Color(0xffD9D9D9);
+  static const Color activeColor = Color(0xff363636);
 }

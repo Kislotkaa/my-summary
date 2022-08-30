@@ -4,91 +4,50 @@ import 'package:flutter/services.dart';
 import 'app_colors.dart';
 
 ThemeData get lightTheme => ThemeData(
-      scaffoldBackgroundColor: AppColors.backGroundColorLight,
+      scaffoldBackgroundColor: AppColors.backgroundColor,
       appBarTheme: const AppBarTheme(
         elevation: 0,
-        backgroundColor: AppColors.primaryConst,
+        backgroundColor: AppColors.backgroundColor,
         systemOverlayStyle: SystemUiOverlayStyle.dark,
         titleTextStyle: TextStyle(color: Color.fromRGBO(24, 26, 31, 1)),
-        actionsIconTheme: IconThemeData(color: AppColors.textColorLight),
-        iconTheme: IconThemeData(color: AppColors.textColorLight),
+        actionsIconTheme: IconThemeData(color: AppColors.textColor),
+        iconTheme: IconThemeData(color: AppColors.textColor),
       ),
-      primaryColorDark: AppColors.textColorLight,
-      iconTheme: const IconThemeData(color: AppColors.textColorLight),
-      primaryIconTheme: const IconThemeData(color: AppColors.textColorLight),
+      iconTheme: const IconThemeData(color: AppColors.textColor),
+      primaryIconTheme: const IconThemeData(color: AppColors.textColor),
       highlightColor: Colors.transparent,
       textButtonTheme: TextButtonThemeData(
         style: ButtonStyle(
           textStyle: MaterialStateProperty.all(
-            const TextStyle(color: AppColors.textColorLight),
+            const TextStyle(color: AppColors.textColor),
           ),
         ),
       ),
       progressIndicatorTheme: const ProgressIndicatorThemeData(
-        color: AppColors.primaryConst,
+        color: AppColors.activeColor,
         circularTrackColor: Colors.transparent,
       ),
-      primaryColor: AppColors.primaryConst,
-      backgroundColor: AppColors.backGroundColorLight,
-      dividerColor: AppColors.dividerColorLight,
-      cardColor: AppColors.cardColorLight,
-      colorScheme: ColorScheme.fromSwatch()
-          .copyWith(secondary: AppColors.secondaryColorLight),
+      primaryColor: AppColors.primaryColor,
+      backgroundColor: AppColors.backgroundColor,
+      dividerColor: AppColors.inactiveColor,
+      cardColor: AppColors.cardColor,
+      colorScheme:
+          ColorScheme.fromSwatch().copyWith(secondary: AppColors.whiteColor),
       textTheme: const TextTheme(
-        subtitle1: TextStyle(
-          fontSize: 12,
-          fontWeight: FontWeight.normal,
-          color: AppColors.textColorLight,
-        ),
-        subtitle2: TextStyle(
-          fontSize: 10,
-          fontWeight: FontWeight.normal,
-          color: AppColors.greyConst,
-        ),
-        bodyText1: TextStyle(
-          fontSize: 16,
-          fontWeight: FontWeight.w500,
-          color: AppColors.textColorLight,
-        ),
-        bodyText2: TextStyle(
-          fontSize: 14,
-          fontWeight: FontWeight.normal,
-          color: AppColors.textColorLight,
-        ),
         headline1: TextStyle(
-          fontSize: 18,
+          fontSize: 26,
           fontWeight: FontWeight.normal,
-          color: AppColors.textColorLight,
+          color: AppColors.titleColor,
         ),
         headline2: TextStyle(
-          fontSize: 18,
+          fontSize: 24,
           fontWeight: FontWeight.bold,
-          color: AppColors.textColorLight,
+          color: AppColors.titleColor,
         ),
-        headline3: TextStyle(
-          fontSize: 22,
-          fontWeight: FontWeight.normal,
-          color: AppColors.textColorLight,
-        ),
-        headline4: TextStyle(
-          fontSize: 22,
+        bodyText2: TextStyle(
+          fontSize: 20,
           fontWeight: FontWeight.bold,
-          color: AppColors.textColorLight,
-        ),
-        headline5: TextStyle(
-          fontSize: 26,
-          fontWeight: FontWeight.normal,
-          color: AppColors.textColorLight,
-        ),
-        headline6: TextStyle(
-          fontSize: 26,
-          fontWeight: FontWeight.bold,
-          color: AppColors.textColorLight,
-        ),
-        caption: TextStyle(
-          fontSize: 12,
-          fontWeight: FontWeight.normal,
-          color: AppColors.greyConst,
+          color: AppColors.titleColor,
         ),
       ),
     );

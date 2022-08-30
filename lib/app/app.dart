@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'resources/app_strings.dart';
+import 'resources/app_theme.dart';
 import 'routes/app_pages.dart';
 
 class App extends StatelessWidget {
@@ -16,6 +17,7 @@ class App extends StatelessWidget {
       getPages: AppPages.routes,
       locale: const Locale('ru_RU'),
       translations: AppStrings(),
+      theme: lightTheme,
     );
   }
 }

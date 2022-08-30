@@ -1,12 +1,12 @@
 ```
 // To install:
-pub global activate get_cli
+flutter pub global activate get_cli
 
 // To create a flutter project in the current directory:
 // Note: By default it will take the folder's name as project name
 // You can name the project with `get create project:my_project`
 // If the name has spaces use `get create project:"my cool project"`
-get create project
+flutter get create project
 
 // To generate the chosen structure on an existing project:
 get init
@@ -14,7 +14,7 @@ get init
 // To create a page:
 // (Pages have controller, view, and binding)
 // Note: you can use any name, ex: `get create page:login`
-get create page:home
+flutter get create page:home
 
 // To create a new controller in a specific folder:
 // Note: you don't need to reference the folder,

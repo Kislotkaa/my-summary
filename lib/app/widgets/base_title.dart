@@ -20,13 +20,26 @@ class BaseTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: TextStyle(
-        fontSize: fontSize ?? (high ? 20 : 18),
-        fontWeight: fontWeight ?? FontWeight.w600,
-        color: inActive ? AppColors.inactiveColor : null,
-      ),
-    );
+    return inActive
+        ? Text(
+            text,
+            style: TextStyle(
+              fontSize: fontSize ?? (high ? 20 : 16),
+              fontWeight: fontWeight ?? FontWeight.w600,
+              color: inActive ? AppColors.inactiveColor : null,
+            ),
+          )
+        : Padding(
+            padding: EdgeInsets.only(
+                top: high == false ? 4 : 20, bottom: high == false ? 8 : 4),
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: fontSize ?? (high ? 20 : 16),
+                fontWeight: fontWeight ?? FontWeight.w600,
+                color: inActive ? AppColors.inactiveColor : null,
+              ),
+            ),
+          );
   }
 }

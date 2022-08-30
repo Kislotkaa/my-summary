@@ -38,8 +38,8 @@ class BaseLeftContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 8),
         const BaseItemLeftContent(
-          title: 'Адрес',
-          text: 'Екатеринбург, Ткачей 13 628100',
+          title: 'Город',
+          text: 'Екатеринбург',
         ),
         const SizedBox(height: 8),
         const BaseItemLeftContent(

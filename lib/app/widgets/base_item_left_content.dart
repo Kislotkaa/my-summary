@@ -24,7 +24,6 @@ class BaseItemLeftContent extends StatelessWidget {
                 inActive: true,
                 fontSize: 14,
               ),
-        SizedBox(height: 2),
         text == null
             ? SizedBox()
             : BaseText(

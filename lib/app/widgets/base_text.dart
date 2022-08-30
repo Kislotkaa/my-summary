@@ -19,7 +19,7 @@ class BaseText extends StatelessWidget {
     return Text(
       text,
       style: TextStyle(
-        fontSize: small ? 12 : 16,
+        fontSize: small ? 12 : 14,
         fontWeight: FontWeight.normal,
         color: inActive ? AppColors.inactiveColor : null,
       ),

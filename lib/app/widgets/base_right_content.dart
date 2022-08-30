@@ -21,9 +21,9 @@ class BaseRightContent extends StatelessWidget {
       padding: EdgeInsets.only(left: isSmallScreen ? 0 : controller.leftWidth),
       child: Column(
         children: [
-          const SizedBox(height: 24),
+          SizedBox(height: isSmallScreen ? 24 : 0),
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+            padding: EdgeInsets.symmetric(vertical: 12, horizontal: 16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: children,

@@ -7,22 +7,27 @@ class BaseRightContent extends StatelessWidget {
     Key? key,
     required this.controller,
     required this.children,
+    this.isSmallScreen = false,
   }) : super(key: key);
 
   final HomeController controller;
+  final bool isSmallScreen;
+
   final List<Widget> children;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: controller.leftWidth),
+      padding: EdgeInsets.only(left: isSmallScreen ? 0 : controller.leftWidth),
       child: Column(
         children: [
+          SizedBox(height: 24),
           Padding(
             padding: EdgeInsets.symmetric(vertical: 16, horizontal: 16),
             child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: children),
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: children,
+            ),
           ),
         ],
       ),

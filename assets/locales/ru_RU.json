@@ -1,0 +1,180 @@
+{
+  "base": {
+    "error": "Ошибка",
+    "error_helper": "Произошла какая-то внутренняя ошибка",
+    "save": "Сохранить",
+    "add": "Добавить",
+    "pc": "шт"
+  },
+  "on_boarding": {
+    "get_start": "Начать",
+    "info": "Это больше, чем просто мобильное приложение. Это приложение по заказу еды!"
+  },
+  "vote":{
+    "vote": "Голосовать",
+    "accept_vote": "Ваш голос засчитан",
+    "accept_vote_helper": "Спасибо что делаете нас лучше"
+  },
+  "address": {
+    "display": "Адресс",
+    "city": "Город",
+    "street": "Улица",
+    "house": "Дом",
+    "apartment": "Квартира",
+    "intercom": "Код домофона",
+    "floor": "Этаж"
+  },
+  "login": {
+    "email": "Почта",
+    "password": "Пароль",
+    "repeat_password": "Повтор пароля",
+    "login": "Авторизироваться",
+    "sign": "Зарегистрироваться",
+    "go_login": "К авторизации",
+    "go_sign": "К регистрации"
+  },
+  "menu": {
+    "menu": "Меню",
+    "go_to_basket": "Перейти в корзину",
+    "add_basket": "Добавить в корзину"
+  },
+  "catalog": {
+    "empty_product": "Список продуктов пуст",
+    "empty_product_helper": "Ожидайте скорого пополнения!"
+  },
+  "profile": {
+    "about": "О нас",
+    "go_to_basket": "Перейти в корзину",
+    "version": "Версия: ",
+    "settings": "Настройки",
+    "profile": "Профиль",
+    "cancel":"Отменить",
+    "exit":"Выйти",
+    "exit_quation":"Выйти?",
+    "exit_help":"Вы уверены что хотите выйти?",
+    "discount": "Скидка",
+    "discount_helper": "Скидка постоянного клиента - "
+  },
+  "basket": {
+    "basket": "Корзина",
+    "basket_empty": "Корзина пуста",
+    "detail_order": "Детальная заказа",
+    "create_order": "Оформить заказ"
+  },
+  "end_boarding": {
+    "my_product": "Мои покупки",
+    "status": "Статус заказа",
+    "total_price": "Сумма заказа",
+    "go_to_order_history": "Перейти в историю заказов"
+  },
+  "order_history": {
+    "order_history": "История заказов",
+    "order_count": "Количество заказов: "
+  },
+  "change_name": {
+    "new_you": "Ваше новое имя",
+    "new": "Ваше имя",
+    "new_helper": "Введите ваше новое имя..."
+  },
+  "change_language": {
+    "language": "Язык",
+    "language_helper": "Выберите язык"
+  },
+  "change_type_payment": {
+    "type_payment": "Тип оплаты",
+    "card": "Картой",
+    "cash": "Наличными",
+    "type_payment_helper": "Выберите тип оплаты"
+  },
+  "choose_address": {
+    "choose_address": "Выберите адрес",
+    "new_address": "Новый адрес",
+    "address_count": "Количество адресов: "
+  },
+  "app_connect": {
+    "no_connect": "Нет соединения",
+    "no_connect_help": "Проверьте соединение с интернетом..."
+  },
+  "change_phone": {
+    "new_you": "Ваше новый телефон",
+    "new": "Ваш телефон",
+    "new_helper": "Введите ваш новый телефон..."
+  },
+  "product_detail": {
+    "description": "Описание",
+    "fat": "Жир",
+    "cal": "Калории",
+    "prot": "Протеин",
+    "voters": "голос(а/ов)"
+  },
+  "date_picker": {
+    "choose":"Выбрать"
+  },
+  "search_product": {
+    "search": "Поиск",
+    "write_search_helper": "Введите название...",
+    "write_search": "Имя товара",
+    "search_empty": "Таких товаров не найдено",
+    "search_name_product": "Поиск продукта по имени",
+    "help_center_text_empty": "Продукт с таким именем не найден",
+    "help_center_text_write": "Введите имя продукта"
+  },
+  "base_profile_item": {
+    "type_payment": "Тип оплаты",
+    "type_payment_helper": "Выберите тип оплаты",
+    "address_delivery": "Куда доставить",
+    "time_delivery": "Когда доставить",
+    "time_possible_helper": "Как можно раньше",
+    "address_delivery_helper": "Выберите адрес доставки",
+    "phone": "Номер телефона",
+    "phone_helper": "Укажите номер телефона",
+    "name": "Ваше имя",
+    "name_helper": "Укажите ваше реальное имя",
+    "email": "Ваша почта",
+    "email_helper": "Укажите вашу настоящую почту",
+    "language": "Языки",
+    "theme": "Тема",
+    "dark_theme": "Тёмная тема"
+  },
+  "snakbar": {
+    "login_error_valid_helper": "Не верный логин или пароль",
+    "login_error_no_account_helper": "Такого аккаунта не существует",
+    "register_error_account_helper": "Такой аккаунт уже существует",
+    "login_error": "Ошибка авторизации",
+    "valid_empty_helper": "Не все поля заполнены",
+    "fill_profile_helper": "Заполните свой профиль",
+    "fill_profile": "Мы вас не знаем",
+    "fill_name_helper": "Как вас зовут?",
+    "fill_name": "Как мы можем к вам обращаться?",
+    "fill_phone_helper": "Заполните свой номер телефона",
+    "fill_phone": "Мы не знаем как до вас дозвониться",
+    "choose_address_delivery_helper": "Укажите адрес доставки",
+    "choose_address_delivery": "Адрес доставки не найден",
+    "product_bascket_helper": "Корзина отчищена, добавите товары заного",
+    "product_bascket": "Продукты не актуальны",
+    "city_address_delivery_helper": "Укажите город доставки",
+    "city_address_delivery": "Город не указан",
+    "street_address_delivery_helper": "Укажите улицу доставки",
+    "street_address_delivery": "Улица не указан",
+    "house_address_delivery_helper": "Укажите номер дома",
+    "house_address_delivery": "Номер дома не указан",
+    "apartment_address_delivery_helper": "Укажите номер квартиры",
+    "apartment_address_delivery": "Номер квартиры не указан",
+    "choose_type_payment_helper": "Укажите тип оплаты",
+    "choose_type_payment": "Тип оплаты не указан",
+    "choose_time_delivery_helper": "Укажите время доставки",
+    "choose_time_delivery": "Время доставки не указанно",
+    "valid_change_name_helper": "Имя должно быть больше двух символов",
+    "valid_change_phone_helper": "Телефон должен быть больше 11 символов",
+    "valid_email_helper": "Такой почты не существует",
+    "valid_email": "Почта не соответсвует формату",
+    "valid_password": "Длина пароля должна быть больше 2-х символов",
+    "valid_repit_password": "Пароли должны совпадать",
+    "order_history_empty_helper": "Совершите заказ и повторите попытку",
+    "order_history_empty": "История заказов пуста",
+    "create_order_helper": "Приятного аппетита",
+    "create_order": "Заказ успешно оформлен",
+    "order_empty_helper": "Оформите заказ и повторите попытку",
+    "order_empty": "История заказов пуста"
+  }
+}

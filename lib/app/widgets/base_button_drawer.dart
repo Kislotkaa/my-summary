@@ -14,7 +14,7 @@ class BaseButtonDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        keyGlobal.currentState!.openDrawer();
+        keyGlobal.currentState?.openDrawer();
       },
       child: Container(
         alignment: Alignment.topRight,

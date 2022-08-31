@@ -27,6 +27,9 @@ class BaseAdaptiveHomeContent extends StatelessWidget {
             if (Get.width <= 768) {
               return SmallHomeScreen(controller: controller);
             } else {
+              if (controller.key.currentState?.isDrawerOpen ?? false) {
+                Navigator.pop(context);
+              }
               return BigHomeScreen(controller: controller);
             }
           }(),

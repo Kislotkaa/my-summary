@@ -22,15 +22,10 @@ class BaseLeftContentFill extends StatelessWidget {
       width: controller.leftWidth,
       children: [
         const BaseImageAvatar(),
-        const SizedBox(height: 16),
+        const SizedBox(height: 8),
         BaseTitle(
           'Личные данные',
           inActive: true,
-        ),
-        const SizedBox(height: 4),
-        const Divider(
-          color: AppColors.textReverseColor,
-          thickness: 1,
         ),
         const SizedBox(height: 8),
         const BaseItemLeftContent(
@@ -67,15 +62,15 @@ class BaseLeftContentFill extends StatelessWidget {
           title: 'Гражданство',
           text: 'РФ',
         ),
-        const SizedBox(height: 16),
-        BaseTitle(
-          'Интересы',
-          inActive: true,
-        ),
         const SizedBox(height: 4),
         const Divider(
           color: AppColors.textReverseColor,
           thickness: 1,
+        ),
+        const SizedBox(height: 8),
+        BaseTitle(
+          'Интересы',
+          inActive: true,
         ),
         const SizedBox(height: 8),
         const BaseItemLeftContent(
@@ -98,19 +93,14 @@ class BaseLeftContentFill extends StatelessWidget {
           color: AppColors.textReverseColor,
           thickness: 1,
         ),
-        const SizedBox(height: 16),
+        const SizedBox(height: 8),
         BaseTitle(
           'Языки',
           inActive: true,
         ),
-        const SizedBox(height: 4),
-        const Divider(
-          color: AppColors.textReverseColor,
-          thickness: 1,
-        ),
         const SizedBox(height: 8),
         const BaseItemLeftContent(
-          title: 'English (средний уровень)',
+          title: 'Английский (средний уровень)',
         ),
         const SizedBox(height: 2),
         const BaseItemLeftContent(

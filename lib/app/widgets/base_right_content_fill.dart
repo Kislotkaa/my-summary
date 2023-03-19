@@ -1,10 +1,5 @@
-import 'dart:io';
-
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:keyfood_admin/app/resources/app_colors.dart';
-
-import 'package:url_launcher/url_launcher.dart';
 
 import '../modules/home/controllers/home_controller.dart';
 import 'base_right_content.dart';
@@ -52,7 +47,7 @@ class BaseRightContentFill extends StatelessWidget {
           ),
         ),
         BaseText(
-          'Коммерчиский опыт работы - 1 год.',
+          'Коммерчиский опыт работы - 2 года.',
         ),
         const SizedBox(height: 6),
         BaseText(
@@ -60,30 +55,30 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Работал с Hasura, GraphQl, RestApi, CodeMagic, Sentry, Firebase-web, DaData',
+          'Основной используемый стэк: Запросы GraphQl, CI/CD CodeMagic, Мониторинг багов Sentry, Архитектура MVC, Стейт менеджер GetX',
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Основные используемые библиотеки: get_cli, dartx, getx, dio, artemis',
+          'Опыт работы с сервисами: Hasura, CodeMagic, Sentry, Firebase-web, DaData, Figma, Miro, Smtp.bz ',
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с: bloc, freezed',
+          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, artemis',
         ),
         const SizedBox(height: 6),
         BaseText(
           'Работаю с Figma и считаю что первоначально отрисованный дизайн приложения, половина успеха вёрстки в дальнейшем',
         ),
-        SizedBox(height: 12),
+        const SizedBox(height: 12),
         BaseTitle(
           'Backend разработчик',
         ),
         BaseText(
-          'Опыт развёртывание бэкенда на удалённом хостинге и дальнейшей работы с ним',
+          'Опыт развёртывание бэкенда на удалённом хостинге, подключения домена и дальнейшей работы с backend',
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Используемые технологии: docker, hasura(admin panel), hasura backend plus(api), postgresql, graphql, traefic',
+          'Используемые технологии: docker, hasura(admin panel), hasura backend plus(api), postgresql, graphql, traefic, minio, mailhog',
         ),
         BaseTitle(
           'Образование',
@@ -94,10 +89,41 @@ class BaseRightContentFill extends StatelessWidget {
           thickness: 1,
         ),
         BaseTitle(
-          'Бакалавриат с отличием',
+          'Бакалавриат',
         ),
         BaseText(
-          'ЮГУ, Институт Цифровой Экономики \nНаправление - информатика и вычислительная техника',
+          'Вуз - Югорский Государственный университет (ЮГУ)',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Институт - Институт Цифровой Экономики',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Направление - Информатика и вычислительная техника',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Стутс - Окончание отличием',
+        ),
+        const SizedBox(height: 12),
+        BaseTitle(
+          'Магистратура',
+        ),
+        BaseText(
+          'Вуз - Югорский Государственный университет (ЮГУ)',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Институт - Институт Цифровой Экономики',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Направление - Прикладная математка и информатика',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Стутс - в процессе',
         ),
         BaseTitle(
           'Ссылки',
@@ -112,6 +138,27 @@ class BaseRightContentFill extends StatelessWidget {
           text: 'GitHub : ',
           hideUrl: 'Go to GitHub',
           url: 'https://github.com/Kislotkaa',
+        ),
+        const SizedBox(height: 6),
+        const BaseUrlLaunchText(
+          text: 'Pets Google : ',
+          hideUrl: 'Go to Google',
+          url:
+              'https://play.google.com/store/apps/details?id=com.notanapps.pets_flutter',
+        ),
+        const SizedBox(height: 6),
+        const BaseUrlLaunchText(
+          text: 'Pets AppStore : ',
+          hideUrl: 'Go to AppStore',
+          url:
+              'https://apps.apple.com/us/app/pets-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D1%85-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85/id6443840696',
+        ),
+        const SizedBox(height: 6),
+        const BaseUrlLaunchText(
+          text: 'Heart Tracker Google : ',
+          hideUrl: 'Go to Google',
+          url:
+              'https://play.google.com/store/apps/details?id=com.notanapps.svarog_heart_tracker',
         ),
         const SizedBox(height: 12),
       ],

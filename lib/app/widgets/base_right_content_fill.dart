@@ -59,11 +59,11 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с сервисами: Hasura, CodeMagic, Sentry, Firebase-web, DaData, Figma, Miro, Smtp.bz ',
+          'Опыт работы с сервисами: Hasura, CodeMagic, Sentry, OneSignal, Firebase-web, DaData, Figma, Miro, Smtp.bz ',
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, artemis',
+          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, artemis, onesignal_flutter',
         ),
         const SizedBox(height: 6),
         BaseText(

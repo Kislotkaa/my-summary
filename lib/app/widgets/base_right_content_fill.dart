@@ -104,7 +104,7 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Стутс - Окончание отличием',
+          'Статус - Окончание отличием',
         ),
         const SizedBox(height: 12),
         BaseTitle(
@@ -123,7 +123,7 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Стутс - в процессе',
+          'Статус - в процессе',
         ),
         BaseTitle(
           'Ссылки',

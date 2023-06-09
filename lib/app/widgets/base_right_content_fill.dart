@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:keyfood_admin/app/resources/app_colors.dart';
+import 'package:my_summary/app/resources/app_colors.dart';
 
 import '../modules/home/controllers/home_controller.dart';
 import 'base_right_content.dart';
@@ -29,10 +29,6 @@ class BaseRightContentFill extends StatelessWidget {
           fontSize: 26,
           fontWeight: FontWeight.bold,
         ),
-        const Divider(
-          color: AppColors.inactiveColor,
-          thickness: 1,
-        ),
         BaseTitle(
           'Опыт работы',
           high: true,
@@ -47,11 +43,7 @@ class BaseRightContentFill extends StatelessWidget {
           ),
         ),
         BaseText(
-          'Коммерчиский опыт работы - 2 года.',
-        ),
-        const SizedBox(height: 6),
-        BaseText(
-          'Работаю по методологии Agile. Придерживаюсь принципа ООП SOLID и шаблона проектирования MVС.',
+          'Коммерчиский опыт работы - 1.5 года.',
         ),
         const SizedBox(height: 6),
         BaseText(
@@ -59,15 +51,11 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с сервисами: Hasura, CodeMagic, Sentry, OneSignal, Firebase-web, DaData, Figma, Miro, Smtp.bz ',
+          'Опыт работы с сервисами: Hasura, CodeMagic, Sentry, OneSignal, Firebase-web, DaData, Figma',
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, artemis, onesignal_flutter',
-        ),
-        const SizedBox(height: 6),
-        BaseText(
-          'Работаю с Figma и считаю что первоначально отрисованный дизайн приложения, половина успеха вёрстки в дальнейшем',
+          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, bloc, artemis, onesignal_flutter, sqllite, ',
         ),
         const SizedBox(height: 12),
         BaseTitle(
@@ -124,6 +112,29 @@ class BaseRightContentFill extends StatelessWidget {
         const SizedBox(height: 6),
         BaseText(
           'Статус - в процессе',
+        ),
+        BaseTitle(
+          'О себе',
+          high: true,
+        ),
+        const Divider(
+          color: AppColors.inactiveColor,
+          thickness: 1,
+        ),
+        BaseText(
+          'Что касается основного используемого стэка во FrontEnd разработке, могу сказать что стэк хорошо себя показывается в скорости написания кода и интегрирования новых фичей в проект. Общего мнения о GetX - могу сказать что если построенная архитектура масштабируема, то при росте проекта, GetX не мешает, а наоборот позволяет не сбрасывать темп разработки.',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Уделяю достаточное время оптимизации кода, внедряю sql запросы, что бы избежать нагромаждение условий if else. Избегаю дублирование кода и выношу его в модули для дальнейшего переиспользования. Избегаю зависимости модулей друг от друга, что бы избежать конфликтов при масштабировании проекта.',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Считаю что для пользователя, основное - это получить положительный опыт, а значит приложение должно быть не плоским листом бумаги, а общительным и с правильно построеным UX/UI дизайном. Поэтому первоночально отрисовываю и продумываю дизайн в Figma.',
+        ),
+        const SizedBox(height: 6),
+        BaseText(
+          'Иногда большой задачей для меня стоит внедрить сторонний сервис в приложение, разработать новый экран для него и испоользовать в нескольких местах, но на удивление с ней я справляюсь быстро и без значитильных проблем. Но бывают малые задачи, к примеру, реализовать несложный, но новый для меня алгоритм, такие задачи иногда даются сложно и на их реализацию уходит больше времени чем планировалось, но всё же после реализации, следующая такая задача, не занимает много времени.',
         ),
         BaseTitle(
           'Ссылки',

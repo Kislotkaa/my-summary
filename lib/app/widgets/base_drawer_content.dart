@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:keyfood_admin/app/modules/home/controllers/home_controller.dart';
+import 'package:my_summary/app/modules/home/controllers/home_controller.dart';
 
 import '../resources/app_colors.dart';
 import 'base_image_avatar.dart';

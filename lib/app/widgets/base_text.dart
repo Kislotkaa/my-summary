@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:keyfood_admin/app/resources/app_colors.dart';
+import 'package:my_summary/app/resources/app_colors.dart';
 
 class BaseText extends StatelessWidget {
   BaseText(

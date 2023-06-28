@@ -55,7 +55,7 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, bloc, artemis, onesignal_flutter, sqllite, ',
+          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, bloc, artemis, sqllite ',
         ),
         const SizedBox(height: 12),
         BaseTitle(

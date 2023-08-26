@@ -43,11 +43,11 @@ class BaseRightContentFill extends StatelessWidget {
           ),
         ),
         BaseText(
-          'Коммерчиский опыт работы - 1.5 года.',
+          'Коммерческий опыт работы - 1.5 года.',
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Основной используемый стэк: Запросы GraphQl, CI/CD CodeMagic, Мониторинг багов Sentry, Архитектура MVC, Стейт менеджер GetX',
+          'Основной используемый стэк: Запросы GraphQl, CI/CD CodeMagic, AppMetrica, Архитектура MVC, Стейт менеджер GetX',
         ),
         const SizedBox(height: 6),
         BaseText(
@@ -55,7 +55,7 @@ class BaseRightContentFill extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         BaseText(
-          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, bloc, artemis, sqllite ',
+          'Опыт работы с библиотеками: flutter_blue, dio, flutter_dotenv, flutter_secure_storage, graphql_flutter, onesignal_flutter, sentry_flutter, app_tracking_transparency, dartx, permission_handler, url_launcher, get_cli, getx, bloc, artemis, sqllite, yandex_mobileads, appmetrica_plugin',
         ),
         const SizedBox(height: 12),
         BaseTitle(
